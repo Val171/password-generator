@@ -13,7 +13,7 @@ window = Tk()
 window.title("Password Generator")
 window.config(height=600, width=600, bg=LIGHT_BLUE, padx=50, pady=50)
 canvas = Canvas(width=200, height=200,bg=LIGHT_BLUE, highlightthickness=0)
-lock = PhotoImage(file="/Users/vrish/Downloads/password-manager-start/logo.png")
+lock = PhotoImage(file="<background_img_file_path>")
 canvas.create_image(100, 100, image=lock)
 canvas.grid(column=2, row=1, padx=20, pady=20)
 
